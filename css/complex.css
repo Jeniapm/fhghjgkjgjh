@@ -1,0 +1,130 @@
+.complex {
+    margin-top: 25px;
+}
+
+.complex-descriptions {
+    width: 100%;
+    height: 218px;
+    background: rgba(107, 183, 0, 0.05);
+}
+
+.complex-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color: #6BB700;
+    margin-left: 748px;
+    padding-top: 25px;
+}
+
+.complex-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    width: 906px;
+    height: 93px;
+    margin-left: 520px;
+    margin-top: 25px;
+}
+
+.complex-list { 
+margin-top: 90px;
+display: grid; 
+grid-template-columns: 450px 450px 450px;
+grid-template-rows: 330px 330px 330px;
+padding-left: 327px;
+    margin-top: 92px;
+}
+
+.complex-item {
+    width: 399px;
+    height: 285px;
+    position: relative;
+}
+
+.complex-item-title {
+position: absolute;
+bottom: 0px;
+}
+.complex-image-badge {
+   
+    width: 399px;
+    height: 45px;
+    text-align: center;
+    background:  rgba(196, 196, 196, 0.7);
+    font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 23px;
+line-height: 41px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1467px) {
+    .complex-header {
+        margin-left: 350Px;
+    }
+    .complex-title {
+        margin-left: 220px;
+        width: 800px;
+        height: 45px;
+    }
+    .complex-list {
+        grid-template-columns: 450px 450px;
+        padding-left: 127px;
+    }
+}
+
+@media (max-width: 966px) {
+    .complex-header {
+        margin-left: 250px;
+    }
+    .complex-title {
+        margin-left: 170px;
+        width: 600px;
+        height: 45px;
+    }
+    .complex-list {
+        grid-template-columns: 450px 450px;
+        display: inline-block;
+        padding-left: 220px;
+    }
+    .complex-item {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 785px) {
+    .complex-list {
+        grid-template-columns: 450px 450px;
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .complex-header {
+        margin-left: 80px;
+    }
+    .complex-title {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 617px){
+    .complex-title {
+        margin-left: 10px;
+        width: 350px;
+        height: 45px;
+    }
+    .complex-descriptions {
+        height: 318px;
+    }
+}
+
+@media (max-width: 480px) {
+    .complex-item {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .complex-list {
+        padding-left: 0px;
+    }
+}
